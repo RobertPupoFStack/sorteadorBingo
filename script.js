@@ -14,7 +14,7 @@ for (let i = 1; i <= 75; i++) {
 
 // Função para sortear um número
 function drawNumber() {
-    if (drawnNumbers.length >= 24) {
+    if (drawnNumbers.length >= 75) {
         alert('Todos os números já foram sorteados.');
         return;
     }
